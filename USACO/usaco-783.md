@@ -53,8 +53,8 @@ int intersect_area(pair<pair<int,int>, pair<int,int>> s1,
 
 void solve(){
    
-   // cow feed billboard billboard = (x[0], y[0]), (x[1], y[1])
-   // lawnmower billboard = (x[2], y[2]), (x[3], y[3])
+   // lawnmower billboard billboard = (x[0], y[0]), (x[1], y[1])
+   // cow feed billboard = (x[2], y[2]), (x[3], y[3])
    vector<int> x(4), y(4);
    
    for(int i= 0; i<4; i++){
